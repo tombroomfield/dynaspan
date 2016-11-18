@@ -12,7 +12,7 @@ module Dynaspan
 
     initializer 'dynaspan.action_controller' do |app|
       ActiveSupport.on_load :action_controller do
-        helper Dynaspan::ApplicationHelper
+        # helper Dynaspan::ApplicationHelper
       end
     end
 
@@ -29,4 +29,3 @@ module Dynaspan
     end
   end
 end
-
